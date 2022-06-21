@@ -1,0 +1,23 @@
+@use '/styles/variables' as var;
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: fit-content;
+}
+
+.img {
+  padding: 0 !important;
+  padding-left: 4px !important;
+  &:first-child {
+    padding-left: 4px !important;
+  }
+  &:last-child {
+    padding-right: 4px !important;
+  }
+}

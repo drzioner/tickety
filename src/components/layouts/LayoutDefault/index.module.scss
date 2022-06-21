@@ -1,0 +1,31 @@
+@use "/styles/variables" as var;
+
+.container {
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  color: var.$textColor;
+  border: 1px solid #e2e8ee;
+  border-radius: 6px;
+  box-shadow: none;
+  & > input::placeholder {
+    color: var.$textColor;
+  }
+}
+
+.input {
+  color: var.$textColor;
+  & > input::placeholder {
+    color: var.$textColorPlaceholder;
+    opacity: 1;
+  }
+}
+
+.icon {
+  color: var.$textColor;
+  padding: 10px;
+  & > input::placeholder {
+    color: var.$textColor;
+  }
+}

@@ -1,0 +1,19 @@
+$backgroundcolor: #fafbfd;
+$lineTableColor: #e2e8ee;
+$primaryColor: #c93b89;
+$primaryColorHover: #7d184f;
+$textColor: #24134a;
+$textColorPlaceholder: #4e4e71;
+$whiteColor: #fff;
+$whiteColorHover: #ecb0d131;
+
+:export {
+  backgroundcolor: $backgroundcolor;
+  lineTableColor: $lineTableColor;
+  primaryColor: $primaryColor;
+  primaryColorHover: $primaryColorHover;
+  textColor: $textColor;
+  textColorPlaceholder: $textColorPlaceholder;
+  whiteColor: $whiteColor;
+  whiteColorHover: $whiteColorHover;
+}
